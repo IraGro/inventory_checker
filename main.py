@@ -1,5 +1,4 @@
 import pandas as pd
-from gui import *
 
 # reading the excel file from a specified location
 
