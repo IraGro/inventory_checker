@@ -3,7 +3,7 @@ import pandas as pd
 # reading the excel file from a specified location
 
 path = r"Service BI Analyst - Home Assignment.xlsx"
-db = pd.read_excel(path, header=0, index_col=0, sheet_name="Table 1").fillna(0)
+db = pd.read_excel("Service BI Analyst - Home Assignment.xlsx", header=0, index_col=0, sheet_name="Table 1").fillna(0)
 inventory = pd.read_excel('Service BI Analyst - Home Assignment.xlsx', header=0, index_col=0, sheet_name="Table 2").fillna(0)
 
 # creating an empty dictionary, which will hold key: value pairs from the compatibility list
